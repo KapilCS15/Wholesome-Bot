@@ -18,8 +18,8 @@ wholesome_quotes=["The past is gone, the future is not here, now I am free of bo
 "If somebody hurts you, it’s okay to cry a river: Just remember to build a bridge and get over it. -Taylor Swift"]
 
 for submission in subreddit.hot(limit=10):
-    print("*****")
-    print(submission.title)
+#     print("*****")
+#     print(submission.title)
 
     for comment in submission.comments:
         if hasattr(comment,"body"):
